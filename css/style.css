@@ -1,0 +1,102 @@
+/*Primeira pagina */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c7ecee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #c7ecee;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .icon-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .icon-group img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  main h1 {
+    color: #006666;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  
+  main h2 {
+    color: #138d75;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .login-box {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .login-box h3 {
+    color: #006666;
+    margin-bottom: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006666;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-box .ou {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
